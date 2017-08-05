@@ -1,0 +1,367 @@
+/* 
+ * Deprecated DNN CSS class names will remain available for some time
+ * before being  permanently removed. Removal will occur according to
+ * the  following process:
+ *
+ * 1. Removal will only occur with a major (x.y) release, never
+ *    with a maintenance (x.y.z) release.
+ * 2. Removal will not occur less than six months after the release
+ *    when it was deprecated.
+ * 3. Removal will not occur until after deprecation has been noted 
+ *    in at least two major releases.
+ *
+ *                                              |        |Planned |
+ *  Name                                        |Release |Removal |
+ *----------------------------------------------+--------+--------+
+ * Mod{NAME}C                                     5.6.2    6.2
+ *   {NAME} = sanitized version of the DesktopModule Name 
+ *   Used on <div> tag surrounding Module Content, inside container
+ *----------------------------------------------+--------+--------+
+ */  
+
+
+/* Custom Button */
+.iconSpacing {margin-bottom:8px;}
+.iconButton.chatIcon{min-height:82px;}
+
+.iconButton .gborder{display:block;padding:1px;margin:0;text-decoration:none;position:relative;}
+
+.iconButton a{text-decoration:none;}
+
+.iconButton .gborder span{display:block;min-height:37px;padding:4px 0;}
+
+.iconButton .iconImg{width:45px;position:absolute;}
+.iconButton .iconText{margin-left:52px;}
+.chatIcon .iconImg{width:78px;}
+.chatIcon .iconText{margin-left:86px;}
+.iconButton .gborder em,.iconButton .gborder strong{display:block;font-weight:normal;font-style:normal;line-height:18px;color:white;margin-left:10px;vertical-align:middle;}
+.iconButton .iconText em{font-size:13px;font-family:Arial,san-serif;text-shadow:1px 1px 2px #333333;}
+.iconButton .iconText strong{font-size:16px;font-family:Arial Black,san-serif;text-shadow:1px 1px 2px #333333;text-transform:uppercase;}
+.iconButton .iconImg span{background:url(images/side-menu/icons.png) no-repeat 0px 0;}
+.chatIcon .iconImg span{background:url(images/side-menu/chat-icon.png) no-repeat 0px 0;min-height:80px;padding:0px !important;}
+.iconButton .iconImg span.videocenter{background-position:-45px 0;}
+.iconButton .iconImg span.newsletter{background-position:-90px 0;}
+.iconButton .iconImg span.calendar{background-position:-135px 0;}
+.iconButton .iconImg span.Sponsor{background-position:-450px 0;}
+.iconButton .iconImg span.safety{background-position:-180px 0;}
+.iconButton .iconImg span.rzcares{background-position:-225px 0;}
+.iconButton .iconImg span.m-terms{background-position:-315px 0;}
+.iconButton .iconImg span.l-terms{background-position:-360px 0;}
+.iconButton .iconImg span.i-terms{background-position:-270px 0;}
+.iconButton .iconImg span.settlements{background-position:-405px 0;}
+.iconButton span.grey{background-color:#666666;}
+.iconButton span.blue{background-color:#007aa3;}
+.iconButton span.green{background-color:#228B22;}
+.iconButton span.maroon{background-color:#791c1d;}
+.iconButton span.gold{background-color:#9f6d2c;}
+.iconButton .iconImg span.noimg {background-image:none;padding:0 !important;overflow:hidden;height:47px;}
+
+/* PAGE BACKGROUND */
+/* background color for the header at the top of the page  */
+.HeadBg {
+}
+
+/* background color for the content part of the pages */
+Body
+{
+}
+
+.ControlPanel {
+}
+
+/* background/border colors for the selected tab */
+.TabBg {
+}
+
+.LeftPane  { 
+}
+
+.ContentPane  { 
+}
+
+.RightPane  { 
+}
+
+/* text style for the selected tab */
+.SelectedTab {
+}
+
+/* hyperlink style for the selected tab */
+A.SelectedTab:link {
+}
+
+A.SelectedTab:visited  {
+}
+
+A.SelectedTab:hover    {
+}
+
+A.SelectedTab:active   {
+}
+
+/* text style for the unselected tabs */
+.OtherTabs {
+}
+    
+/* hyperlink style for the unselected tabs */
+A.OtherTabs:link {
+}
+
+A.OtherTabs:visited  {
+}
+
+A.OtherTabs:hover    {
+}
+
+A.OtherTabs:active   {
+}
+
+/* GENERAL */
+/* style for module titles */
+.Head   {
+}
+
+/* style of item titles on edit and admin pages */
+.SubHead    {
+}
+
+/* module title style used instead of Head for compact rendering by QuickLinks and Signin modules */
+.SubSubHead {
+}
+
+/* text style used for most text rendered by modules */
+.Normal
+{
+}
+
+/* text style used for textboxes in the admin and edit pages, for Nav compatibility */
+.NormalTextBox
+{
+}
+
+.NormalRed
+{
+}
+
+.NormalBold
+{
+}
+
+/* text style for buttons and link buttons used in the portal admin pages */
+.CommandButton     {
+}
+    
+/* hyperlink style for buttons and link buttons used in the portal admin pages */
+A.CommandButton:link {
+}
+
+A.CommandButton:visited  {
+}
+
+A.CommandButton:hover    {
+}
+    
+A.CommandButton:active   {
+}
+
+/* button style for standard HTML buttons */
+.StandardButton     {
+}
+
+/* GENERIC */
+H1  {
+}
+
+H2  {
+}
+
+H3  {
+}
+
+H4  {
+}
+
+H5, DT  {
+}
+
+H6  {
+}
+
+TFOOT, THEAD    {
+}
+
+TH  {
+}
+
+A:link  {
+}
+
+A:visited   {
+}
+
+A:hover {
+}
+
+A:active    {
+}
+
+SMALL   {
+}
+
+BIG {
+}
+
+BLOCKQUOTE, PRE {
+}
+
+
+UL LI   {
+}
+
+UL LI LI    {
+}
+
+UL LI LI LI {
+}
+
+OL LI   {
+}
+
+OL OL LI    {
+}
+
+OL OL OL LI {
+}
+OL UL LI   {
+}
+
+HR {
+}
+
+/* MODULE-SPECIFIC */
+/* text style for reading messages in Discussion */    
+.Message    {
+}   
+
+/* style of item titles by Announcements and events */
+.ItemTitle    {
+}
+
+/* Menu-Styles */
+/* Module Title Menu */
+.ModuleTitle_MenuContainer {
+}
+
+.ModuleTitle_MenuBar {
+}
+
+.ModuleTitle_MenuItem {
+}
+
+.ModuleTitle_MenuIcon {
+}
+
+.ModuleTitle_SubMenu {
+}
+
+.ModuleTitle_MenuBreak {
+}
+
+.ModuleTitle_MenuItemSel {
+}
+
+.ModuleTitle_MenuArrow {
+}
+
+.ModuleTitle_RootMenuArrow {
+}
+
+/* Main Menu */
+
+.MainMenu_MenuContainer {
+}
+
+.MainMenu_MenuBar {
+}
+
+.MainMenu_MenuItem {
+}
+
+.MainMenu_MenuIcon {
+}
+
+.MainMenu_SubMenu {
+}
+
+.MainMenu_MenuBreak {
+}
+
+.MainMenu_MenuItemSel {
+}
+
+.MainMenu_MenuArrow {
+}
+
+.MainMenu_RootMenuArrow {
+}
+
+/* Login Styles */
+.LoginPanel{
+}
+
+.LoginTabGroup{
+}
+
+.LoginTab {
+}
+
+.LoginTabSelected{
+}
+
+.LoginTabHover{
+}
+
+.LoginContainerGroup{
+}
+
+.LoginContainer{
+}
+
+/*Editor*/
+.RadTreeView_Default{color:#999;}
+
+
+
+body, html {background-color:#fff; text-align:left;}
+
+
+
+
+.textLeft {text-align: left;}
+.textRight {text-align: right;}
+.textCenter {text-align: center}
+
+.attorney-profile {border:1px solid #000000; height:130px; width:108px; overflow:hidden;}
+.attorney-profile img {width:108px; height: auto; margin-top:-10px; text-align:center;}
+.attorney-underline {width:100%; border-bottom: 1px dotted #cccccc; margin:0 auto 6px; clear:both;}
+.StaffTitle { font-family: 'coustardregular',serif; color: #01527d;text-align:center; font-weight:normal;}
+.DkTitle {color:##01527D; font-family: 'coustardregular',serif;text-align:center;}
+.Underline{border-bottom: 1px solid #666666; margin: 0 auto 0.5em; line-height: 1.2em;}
+
+
+
+ p { margin: 0 auto 1em; font-size:16px;}
+
+.imgLeft { float: left; margin-right: 10px; margin-bottom: 5px; }
+
+.imgRight { float: right; margin-left: 10px; margin-bottom: 5px; }
+
+.imgBorder { border: solid 3px #fff; }
+
+.imgPolaroid { color: #a6a6a6; font-size: 12px; text-align: left; padding: 13px 13px 17px 13px; background-color: #fff; box-shadow: 0 1px 2px #ccc;}
+
+.imgPolaroid img { margin-bottom: 12px; }
+
+
+
+

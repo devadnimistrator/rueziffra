@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:2.1
+N:Sweat;David
+FN:David Sweat
+ORG:Rue & Ziffra, P.A.
+TITLE:Attorney
+TEL;WORK;VOICE:(386) 788-7700
+ADR;WORK:;;632 Dunlawton Ave.;Port Orange;FL;32127;USA
+LABEL;WORK;ENCODING=QUOTED-PRINTABLE:632 Dunlawton Ave.=0D=0APort Orange, FL 32127=0D=0AUSA
+URL;WORK:http://www.rueziffra.com
+EMAIL;PREF;INTERNET:dsweat@rueziffra.com
+REV:20120124T182334Z
+END:VCARD

@@ -1,0 +1,14 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Rue;John;;;
+FN:John Rue
+ORG:Rue & Ziffra, P.A.
+TITLE:Attorney
+PHOTO;VALUE=URL;TYPE=GIF:http://www.networkingmagic.com/images/johnruevcardsample.gif
+TEL;TYPE=WORK,VOICE:(386) 788-7700
+ADR;TYPE=WORK:;;632 Dunlawton Ave.;Port Orange;FL;32127;USA
+LABEL;TYPE=WORK:632 Dunlawton Ave.;Port Orange;FL;32127;USA
+URL;WORK:http://www.rueziffra.com
+EMAIL;TYPE=PREF,INTERNET:johnr@rueziffra.com
+REV:2012-01-17T19:52:43Z
+END:VCARD
